@@ -23,10 +23,12 @@ python converter.py
 - Branches are merged into main through a Pull Request, then deleted
 
 ## Add vs Commit vs Push
-- git add: selects which changes go into the next snapshot
-- git commit: saves that snapshot in the local history with a message
-- git push: uploads local commits to GitHub so they are backed up
 
+- **git add**: I use this to pick which changed files I want to save next. Nothing is saved yet, the file is just marked as ready. Example: `git add converter.py`
+- **git commit**: This saves the files I picked as a snapshot on my own computer, with a message saying what I changed. Example: `git commit -m "Add f_to_c function"`
+- **git push**: This sends my saved commits to GitHub. Before I push, my work only exists on my laptop. After I push, it's backed up online and my lecturer can see it. Example: `git push`
+
+I keep them as three steps so I can check my changes before they go online.
 ## Key commands
 git clone <url>
 git add <file>
